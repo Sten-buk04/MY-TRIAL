@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body{
+        background-color: rgb(171, 213, 228);
+        text-decoration: white;
+    }
+    h1{
+        text-align: center;
+    }
+
+    button{
+        background-color: rgb(27, 118, 151);
+        border: 0;
+        color: white;
+        padding:2%;
+    }
+
+
+
+</style>
+<body>
+   <form action="Fill form">
+        <h1>FILL THE FORM</h1>
+        <label for="Mobile number or email">Mobile number or email:</label>
+        <input type="text" placeholder="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="password"> <br><br>
+
+        <button>Log in</button><br><br>
+    <h2>What's your gender?</h2>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="name">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label>
+
+    <h2>Which country are you from?</h2>
+        <input type="checkbox" id="Nigeria" name="country">
+        <label for="Nigeria">Nigeria</label><br>
+
+        <input type="checkbox" id="Canada" name="country">
+        <label for="canada">Canada</label>
+   </form>
+</body>
+</html>
